@@ -1,0 +1,45 @@
+html{
+    font-family: 'Segoe UI';
+    background-color: rgb(59, 0, 0);
+}
+.div1{
+    text-align: center;
+    background-color: rgb(59, 0, 0);
+}
+
+ .input1{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 21px;
+    padding: 3px;
+    width: 400px;
+    height: 44px;
+    margin-top: 300px;
+} 
+.button1{
+    border: 1px solid rgb(81, 116, 221);
+    border-radius: 20px;
+    padding: 9px;
+    width: 43px;
+    background-color: rgb(81, 116, 221);
+    height: 42px;
+    color: rgb(255, 255, 255);
+    
+}
+.bi-search{
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 5px;
+} 
+::placeholder{
+    text-align: left;
+}
+input:focus{
+    outline:none;
+}
+.button1:focus{
+    outline:none;
+}
+input:hover{
+    background-color: rgb(230, 230, 230);
+}
